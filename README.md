@@ -1,6 +1,6 @@
 # Vision-Language Models Repository  
 
-This repository provides a structured collection of resources for Vision-Language Models (VLMs). It covers key components essential for research and development in multimodal AI.  
+This repository provides a structured collection of resources for Vision-Language Models (VLMs). It covers key components essential for research and development in the Vision language model.  
 
 ## 📌 Components  
 
