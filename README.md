@@ -1,5 +1,11 @@
-# Vision-Language Models Repository  
+# A comprehensive survey of Vision--Language Models: Pretrained models, fine-tuning, prompt engineering, adapters, and benchmark datasets 
 
+# Abstract:
+Vision Language Models (VLMs) have significantly advanced multimodal tasks like image captioning, visual question answering, and multimodal retrieval. This survey presents a systematic review of 115 published papers from 2018 to 2025. It focuses key VLM components including fine-tuning strategies, prompt engineering techniques, pre-trained models, adapter modules, and benchmarking datasets. For each component, we present taxonomies and summarize comparative findings across standard VLM benchmarks. The survey emphasizes the role of lightweight, parameter-efficient adaptation methods in reducing computational overhead while maintaining strong task performance, particularly in real-world deployment contexts. It further examines the strengths and limitations of prompt-based learning, dataset-specific tuning strategies, and architectural trade-offs. Finally, the paper identifies open challenges in scalability, generalization, and bias, and explores emerging research directions including symbolic reasoning, multilingual adaptation, and energy-efficient VLM design. To our best knowledge, this is the first comprehensive survey to integrate these critical components into a single, cohesive survey paper, intended to serve as a foundational resource for researchers and practitioners striving to optimize VLMs for diverse real-world scenarios. The highlights of the review are available at https://github.com/SufyanDanish/VLM-Survey-
+# 📌 Journal: Information Fusion
+# Paper Link: [Click Here](https://www.sciencedirect.com/science/article/pii/S1566253525006955)
+
+# Vision-Language Models Repository  
 This repository provides the latest collection of resources for Vision-Language Models (VLMs). It covers key components essential for research and development in the Vision language model.  
 
 ## 📌 Components  
@@ -12,7 +18,7 @@ This repository provides the latest collection of resources for Vision-Language 
 
 This repository aims to assist researchers and developers by offering well-organized resources and references to advance work in Vision-Language Modeling.  
 if you have the latest paper related to the above-mentioned VLM components then Please share it with us we will include it in the latest resources. 
-**- Our full paper will be available soon**
+
 ### Summary of Prompt Engineering Techniques for Vision Language Models (2021–2025)
 
 | Year | Method | Type | Description | Publication | Code |
