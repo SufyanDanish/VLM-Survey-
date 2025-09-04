@@ -1,4 +1,15 @@
 # A comprehensive survey of Vision--Language Models: Pretrained models, fine-tuning, prompt engineering, adapters, and benchmark datasets 
+<!-- Image 1 with caption -->
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3b1fdd4f-dbf4-4f75-b857-483383094581" alt="Updated Architecture" width="90%">
+  <p><em>Schematic overview of the survey design highlighting optimization strategies in VLM. The figure categorizes key components covered in the paper, including fine-tuning techniques, prompt engineering, adapter and pretraining model. Each component is critically analyzed to provide comprehensive insights into current trends, challenges, and future research directions in VLM optimization.</em></p>
+</div>
+
+<!-- Image 2 with caption -->
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a1247793-3ebd-425e-9d3d-454396ce4e58" alt="VLM Insight" width="90%">
+  <p><em>Conceptual model of the paper.</em></p>
+</div>
 
 # Abstract:
 Vision Language Models (VLMs) have significantly advanced multimodal tasks like image captioning, visual question answering, and multimodal retrieval. This survey presents a systematic review of 115 published papers from 2018 to 2025. It focuses key VLM components including fine-tuning strategies, prompt engineering techniques, pre-trained models, adapter modules, and benchmarking datasets. For each component, we present taxonomies and summarize comparative findings across standard VLM benchmarks. The survey emphasizes the role of lightweight, parameter-efficient adaptation methods in reducing computational overhead while maintaining strong task performance, particularly in real-world deployment contexts. It further examines the strengths and limitations of prompt-based learning, dataset-specific tuning strategies, and architectural trade-offs. Finally, the paper identifies open challenges in scalability, generalization, and bias, and explores emerging research directions including symbolic reasoning, multilingual adaptation, and energy-efficient VLM design. To our best knowledge, this is the first comprehensive survey to integrate these critical components into a single, cohesive survey paper, intended to serve as a foundational resource for researchers and practitioners striving to optimize VLMs for diverse real-world scenarios. The highlights of the review are available at https://github.com/SufyanDanish/VLM-Survey-
@@ -16,8 +27,19 @@ This repository provides the latest collection of resources for Vision-Language 
 - **Adapters**: 
 - **Benchmark Datasets**: 
 
-This repository aims to assist researchers and developers by offering well-organized resources and references to advance work in Vision-Language Modeling.  
-if you have the latest paper related to the above-mentioned VLM components then Please share it with us we will include it in the latest resources. 
+  
+## Contributing
+This repository aims to assist researchers and developers by providing well-organized resources and references to support ongoing work in Vision-Language Modeling (VLM).
+If you have recently published or come across a paper related to any key component of VLM — such as pretrained models, fine-tuning strategies, prompt engineering, adapters, or benchmark datasets — please feel free to open a pull request or contact us. We’ll be happy to include it in the resource list.
+
+### How to Submit a Pull Request
+
+1. **Fork** the repository into your own GitHub account.
+
+2. **Add the new paper** to the `README.md` using the following format:
+
+   ```markdown
+   | [Title](Paper Link) | Conference | [Code/Project](Code/Project link) |
 
 ### Summary of Prompt Engineering Techniques for Vision Language Models (2021–2025)
 
@@ -192,3 +214,22 @@ if you have the latest paper related to the above-mentioned VLM components then 
 
 🚀 *Contributions and suggestions are welcome!*  
 Contact: sufyandanish@sju.ac.kr
+# Please the 
+> Danish, Sufyan, Abolghasem Sadeghi-Niaraki, Samee Ullah Khan, L. Minh Dang, Lilia Tightiz, and Hyeonjoon Moon.  
+> **A comprehensive survey of Vision-Language Models: Pretrained models, fine-tuning, prompt engineering, adapters, and benchmark datasets.**  
+> *Information Fusion*, Elsevier, 2025, p. 103623.  
+> [BibTeX](#bibtex)
+
+<details>
+<summary>BibTeX</summary>
+
+```bibtex
+@article{danish2025comprehensive,
+  title={A comprehensive survey of Vision-Language Models: Pretrained models, fine-tuning, prompt engineering, adapters, and benchmark datasets},
+  author={Danish, Sufyan and Sadeghi-Niaraki, Abolghasem and Khan, Samee Ullah and Dang, L Minh and Tightiz, Lilia and Moon, Hyeonjoon},
+  journal={Information Fusion},
+  pages={103623},
+  year={2025},
+  publisher={Elsevier}
+}
+
